@@ -1,0 +1,84 @@
+*{
+    background-color: blueviolet;
+
+}
+
+body{
+    background-color:blueviolet;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 2s;
+}
+img:hover{
+    transform: scale(1.1);
+    animation: backwards;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width: 400px;
+    text-align: center;
+    -moz-box-shadow:4px 4px 5px #888888;
+    -ms-box-shadow:4px 4px 5px #888888;
+    -webkit-box-shadow:4px 4px 5px #888888;
+    -o-box-shadow:4px 4px 5px #888888;
+    box-shadow: 4px 4px 5px #888888;
+
+}
+
+h{
+    color: red;
+    text-align: center;
+    cursor: pointer;
+    border: dashed;
+    border-color: #aae;
+}
+.search-bar{
+    align-items: right;
+    text-align: center;
+}
+header{
+    background-color: transparent;
+    border: darkcyan;
+}
+header li{
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.detail{
+    align-items: center;
+    size: 38px;
+    border-radius: 6px;
+    
+}
+
+ul{
+    transform: translate();
+    background-color: transform;
+    border-radius: 5px;
+
+}
+
+p{
+    color: white;
+    text-align: center;
+    justify-content: right;
+}
