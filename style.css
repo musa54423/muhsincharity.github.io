@@ -45,7 +45,7 @@ h{
     text-align: center;
     cursor: pointer;
     border: dashed;
-    border-color: #aae;
+    border-color: black;
 }
 .search-bar{
     align-items: right;
@@ -78,7 +78,7 @@ ul{
 }
 
 p{
-    color: white;
+    color: black;
     text-align: center;
     justify-content: right;
 }
